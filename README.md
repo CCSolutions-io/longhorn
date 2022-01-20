@@ -1,7 +1,7 @@
-# longhorn
+# Disclaimer
+This repository is a Fork of the [Kustomize longhorn repository](https://github.com/kustomhippie/longhorn) created by [Thomas Boerger](https://github.com/tboerger).
 
-[![Build Status](http://drone.webhippie.de/api/badges/kustomhippie/longhorn/status.svg)](http://drone.webhippie.de/kustomhippie/longhorn)
-[![Join the Matrix chat at https://matrix.to/#/#webhippie:matrix.org](https://img.shields.io/badge/matrix-%23webhippie%3Amatrix.org-7bc9a4.svg)](https://matrix.to/#/#webhippie:matrix.org)
+# longhorn
 
 This repository defines a [Kustomize](https://kustomize.io/) manifest which could be used by other repositories to generate a [Kubernetes](https://kubernetes.io/) manifest for the installation of [longhorn](https://github.com/longhorn/longhorn).
 
