@@ -104,6 +104,16 @@ rules:
       - "backingimages/status"
       - "backingimagemanagers"
       - "backingimagemanagers/status"
+      - "backingimagedatasources"
+      - "backingimagedatasources/status"
+      - "backuptargets"
+      - "backuptargets/status"
+      - "backupvolumes"
+      - "backupvolumes/status"
+      - "backups"
+      - "backups/status"
+      - "recurringjobs"
+      - "recurringjobs/status"
     verbs:
       - "*"
   - apiGroups:

@@ -3,12 +3,17 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 resources:
+  - backingimagedatasource.yml
   - backingimagemanagers.yml
   - backingimages.yml
+  - backup.yml
+  - backuptarget.yml
+  - backupvolume.yml
   - engineimages.yml
   - engines.yml
   - instancemanagers.yml
   - nodes.yml
+  - recurringjobs.yml
   - replicas.yml
   - settings.yml
   - sharemanagers.yml
